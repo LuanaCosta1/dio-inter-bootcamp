@@ -6,3 +6,4 @@ Bootcamp disponibilizado pela Digital Innovation One.
 
 
 ## Adicionando páginas feitas no curso de **Construindo páginas para internet com Bootstrap**.
+## Adicionando contador feito no curso de **Introdução ao Javascript**.
