@@ -5,7 +5,7 @@ var currentNumberWrapper = document.getElementById("currentNumber");
 var currentNumber = 0;
 
 incrementBtn.addEventListener("click", function increment() {
-  currentNumber += 1;
+  currentNumber++;
   currentNumberWrapper.innerHTML = currentNumber;
 
   if (currentNumber < -10) {
@@ -27,7 +27,7 @@ incrementBtn.addEventListener("click", function increment() {
 });
 
 decrementBtn.addEventListener("click", function decrement() {
-  currentNumber -= 1;
+  currentNumber--;
   currentNumberWrapper.innerHTML = currentNumber;
 
   if (currentNumber < -10) {
