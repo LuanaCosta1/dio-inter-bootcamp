@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+
+:root{
+    --soft-green: #BAE5D5;
+    --soft-pink: #D7ACD4;
+    --soft-orange: #EEC2C2;
+    --soft-yellow: #F2F2B0;
+    --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: var(--soft-orange);
+  width: 100%;
+  height: auto;
+}
+
+main{
+    margin: 50px;
+}
+
+main h1{
+    color: var(--white);
+}
+
+.todo{
+    margin-top: 10px;
+}
+
+.todo input{
+    border: 2px solid var(--soft-pink);
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+#taskAddBtn{
+    color: var(--soft-pink);
+    background-color: var(--white);
+    font-weight: bold;
+}
+
+#taskInput{
+    padding: 5px 15px;
+}
+
+#todo-list{
+    margin-top: 30px;
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+.taskDiv{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.taskCheckbox input{
+    width: 10px;
+    height: 10px;
+}
+
+.taskContent{
+    padding-left: 10px;
+    font-size: 1rem;
+
+    border-bottom: 1px solid rgb(196, 196, 196);
+    width: 100%;
+}
