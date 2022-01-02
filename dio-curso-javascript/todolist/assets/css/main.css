@@ -74,3 +74,8 @@ main h1{
     border-bottom: 1px solid rgb(196, 196, 196);
     width: 100%;
 }
+
+:checked + label{
+  text-decoration: line-through;
+  color: var(--soft-green);
+}
