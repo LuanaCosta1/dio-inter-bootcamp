@@ -30,5 +30,5 @@ Dicas de implementação proprostas:
 - Quando o botão for pressionado, o texto deve aparecer na lista com um checkbox ao lado;
 - Quando o usuário selecionar o checkbox, o item correspondente deve ficar com o texto riscado. (ex.: tarefa completa. dica: você pode resolver isso facilmente com CSS).
 
-![127 0 0 1_5500_dio-curso-javascript_todolist_index html](https://user-images.githubusercontent.com/67666536/147867155-016db5f4-a31e-4baf-8a02-904f47edb612.png)
+![127 0 0 1_5500_dio-curso-javascript_todolist_index html (1)](https://user-images.githubusercontent.com/67666536/147867185-64287bf9-a0eb-49ff-b324-f14fa469626e.png)
 
